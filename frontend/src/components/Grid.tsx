@@ -10,13 +10,6 @@ type GridProps = {
 
 export default function Grid(props: GridProps) {
   const { students, onAddStudent, onRemoveStudent } = props;
-  // props.students ?? []
-  //     const [students, setStudents] = useState<StudentProp[]>(props.students ?? []);
-
-  // const onAddStudent = (student: { name: string }) => {
-  //     setStudents((prev) => [...prev, { id: crypto.randomUUID(), ...student }]);
-  // };
-
   return (
     <section>
       <article className="grid">
