@@ -4,8 +4,10 @@ import Total from "./components/Total";
 import type { Student } from "./components/types";
 
 const intitalStudent = [
-  { id: "1", name: "Ola Normann" },
+  { id: "1", name: "Musa Normann" },
   { id: "2", name: "Kari Normann" },
+  { id: "3", name: "Ola Normann" },
+  { id: "4", name: "John Normann" },
 ];
 
 function App() {
